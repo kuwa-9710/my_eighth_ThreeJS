@@ -12,7 +12,7 @@ const sizes = {
 scene = new THREE.Scene();
 
 const textureLoader = new THREE.TextureLoader();
-const bgTexture = textureLoader.load("./images/bg.jpg");
+const bgTexture = textureLoader.load("./bg.jpg");
 scene.background = bgTexture;
 
 camera = new THREE.PerspectiveCamera(75, sizes.width / sizes.height, 0.1, 1000);
